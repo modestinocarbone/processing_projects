@@ -1,4 +1,4 @@
-Do u kike Processing? <br />
+Do u like Processing? <br />
 I will update this repository periodically <br />
 
 
