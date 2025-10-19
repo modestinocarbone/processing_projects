@@ -2,15 +2,16 @@ PImage img1,img2,img3,img4,img5;
 
 void setup(){
  size(600,600);
- img5 = loadImage("t5.png");
- img1 = loadImage("t1.png");
- img2 = loadImage("t2.png");
- img3 = loadImage("t3.png");
- img4 = loadImage("t4.png");
+ img5 = loadImage("style2/t5.png");
+ img1 = loadImage("style2/t1.png");
+ img2 = loadImage("style2/t2.png");
+ img3 = loadImage("style2/t3.png");
+ img4 = loadImage("style2/t4.png");
  frameRate(5);
 }
 
 void draw(){
+  
  background(0);
  fill(255);
  noStroke();
@@ -36,5 +37,6 @@ void draw(){
    }
  }
  
-  
+ saveFrame("./anim/screenshot-####.png");  
+ 
 }
