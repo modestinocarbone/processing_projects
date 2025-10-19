@@ -9,9 +9,14 @@ This repository will host a group of artistic scripts, no techinicism, only fun.
 
 *`bela_julesz` - output*
 
-<img src="./michael_noll/michael_noll_example.png" alt="isolated" width="500">
+<img src="./michael_noll/Computer_composition_with_lines.png" alt="isolated" width="500" >
 
-*`michael_noll` - output*
+*`Computer_composition_with_lines` - output*
+
+
+<img src="./michael_noll/Gaussian_quadratic.png" alt="isolated" width="500">
+
+*`Gaussian_quadratic` - output*
 
 ## Gifs creation
 

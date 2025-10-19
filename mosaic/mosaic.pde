@@ -1,3 +1,10 @@
+/*
+ *  Project name:  'mosaic.pde'
+ *  Author: Modestino Carbone
+ *  Note: This program is an example of mosaic random generation.
+ *
+ */
+
 PImage img1,img2,img3,img4,img5;
 
 void setup(){

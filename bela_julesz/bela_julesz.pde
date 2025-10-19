@@ -1,9 +1,10 @@
 /*
-Bela Julesz
+ *  Project name:  'bela_julesz.pde'
+ *  Author: Modestino Carbone
+ *  Note: This program is a tribute to Bela Julesz work in random pattern generation.
+ * 
+ */
 
-Author: Modestino Carbone
-
-*/
 final int x_len = 50;
 final int y_len = 50;
 boolean[][] mat;

@@ -1,22 +1,51 @@
 /*
-A. Michael Noll
-
-Author: Modestino Carbone
-
-*/
-
+ *  Project name:  'michael_noll.pde'
+ *  Author: Modestino Carbone
+ *  Note: This program is a tribute to Michael Noll famous digital works.
+ * 
+ *  # USAGE
+ *  example:
+ *       1. Computer composition with lines.
+ *       2. Gaussian-quadratic.
+ */
+ 
+// change this line to change example
+int example = 1;
+float oldx;
+float oldy;
 int frame; 
 
 void setup() {
+  
   size(800, 800);
   background(32);
   frame=0;
+  oldx = randomGaussian() * 60;
+  oldy = random(0, 400);
+  
 }
 
 void draw() {
-  Rct rectangle = new Rct();
-  translate(width/2, height/2);
-  rectangle.drw();
+  
+  // Computer composition with lines
+  if(example == 1){
+    Rct rectangle = new Rct();
+    translate(width/2, height/2);
+    rectangle.drw();
+  }
+  
+  // Gaussian-quadratic
+  if(example == 2){
+    translate(width/2, height/4);
+    float x = randomGaussian() * 60;
+    float y = pow(frame,2)%400;
+    stroke(255);
+    line(x, y, oldx, oldy);
+    oldx = x;
+    oldy = y;
+  }
+  
+  // Stop frame control loop
   if(frame > 300){
     frame=0;
     noLoop();  
