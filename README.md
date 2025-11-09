@@ -30,7 +30,7 @@ This repository will host a group of artistic scripts, no techinicism, no AI, on
 
 <img src="./mandelbrot/img/fract_bnw.png" alt="isolated" width="500">
 
-**`fract_bnw` - output**
+**`mandelbrot` - output**
 
 ## Gifs creation
 
