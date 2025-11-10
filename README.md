@@ -1,6 +1,6 @@
 # Processing projects
 
-This repository will host a group of artistic scripts, no techinicism, no AI, only fun.
+This repository will host a group of arthematic scripts, no techinicism, no AI, only fun.
 
 ## Some results
 
